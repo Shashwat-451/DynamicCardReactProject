@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color:rgb(255, 199, 32);
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards{
+    margin: 30px;
+    width: 40%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 30px;
+   
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    
+
+}
+.cards img{
+ width: 400px;
+ height: 300px;
+
+}
+.quote{
+    color: white;
+    font-size: 11px;
+    margin-top: 30px;
+    margin-bottom: 17px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.author{
+    color: white;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 19px;
+}
+
+.formm{
+    display: flex;
+    flex-direction: column;
+ width: 100%;
+ align-items: center;
+ background-color:rgb(255, 199, 32);
+    justify-content: center;
+    gap:1.5rem;
+    margin-bottom: 50px;
+
+}
+.inputt{
+    width: 50%;
+    padding: 1rem;
+    border-radius: 20px;
+   border: none;
+   outline: none;
+}
+.formm button{
+    padding: 12px;
+    border-radius: 15px;
+    width: 135px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.formm button:hover{
+    transform: scale(1.2);
+   
+}
+.Logo{
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
+    margin: 90px;
+
+
+}
+.Logo img{
+    width: 60px;
+ 
+   
+}
+
+    
+
+.AddQuote{
+   
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
+    margin: 50px;
+}
